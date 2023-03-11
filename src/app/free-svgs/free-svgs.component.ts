@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import {FreeSVG} from '../freeSVG';
+import { SVGS } from '../mock-svgs';
 
 @Component({
   selector: 'app-free-svgs',
@@ -7,8 +8,6 @@ import {FreeSVG} from '../freeSVG';
   styleUrls: ['./free-svgs.component.scss']
 })
 export class FreeSVGSComponent {
-  freeSVG: FreeSVG = {
-    id: 1,
-    name: 'Windstorm'
-  };
+
+  svgs = SVGS;
 }

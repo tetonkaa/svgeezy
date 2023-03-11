@@ -1,6 +1,11 @@
-<div>
-    <label for="name">Hero name: </label>
-    <input id="name" [(ngModel)]="freeSVG.name" placeholder="name">
-  </div>
+<h2>My svgs</h2>
+<ul class="svgs">
+    <li *ngFor="let svgs of SVGS">
+    <button type="button">
+      <span class="badge">{{freeSVG.id}}</span>
+      <span class="name">{{freeSVG.name}}</span>
+    </button>
+  </li>
+</ul>
 
 
