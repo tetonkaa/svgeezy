@@ -4,11 +4,13 @@ import { FormsModule } from '@angular/forms'; // <-- NgModel lives here
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { FreeSVGSComponent } from './free-svgs/free-svgs.component';
+import { SvgDetailComponent } from './svg-detail/svg-detail.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    FreeSVGSComponent
+    FreeSVGSComponent,
+    SvgDetailComponent
   ],
   imports: [
     BrowserModule,

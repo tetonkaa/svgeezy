@@ -1,0 +1,8 @@
+<div *ngIf="svg">
+    <h2>{{svg.name | uppercase}} Details</h2>
+    <div>id: {{svg.id}}</div>
+    <div>
+      <label for="svg-name">SVG name: </label>
+      <input id="svg-name" [(ngModel)]="svg.name" placeholder="name">
+    </div>
+  </div>

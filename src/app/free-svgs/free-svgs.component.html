@@ -9,13 +9,7 @@
   </li>
 </ul>
 
-<div *ngIf="selectedsvg">
-  <h2>{{selectedsvg.name | uppercase}} Details</h2>
-  <div>id: {{selectedsvg.id}}</div>
-  <div>
-    <label for="svg-name">SVG name: </label>
-    <input id="svg-name" [(ngModel)]="selectedsvg.name" placeholder="name">
-  </div>
-</div>
+<app-svg-detail [svg]="selectedsvg"></app-svg-detail>
+
 
 
