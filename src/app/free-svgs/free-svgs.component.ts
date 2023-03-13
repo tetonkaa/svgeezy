@@ -10,4 +10,8 @@ import { SVGS } from '../mock-svgs';
 export class FreeSVGSComponent {
 
   svgs = SVGS;
+  selectedsvg?: FreeSVG;
+  onSelect(svg: FreeSVG): void {
+  this.selectedsvg = svg;
+}
 }

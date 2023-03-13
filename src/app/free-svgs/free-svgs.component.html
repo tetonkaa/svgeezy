@@ -1,11 +1,21 @@
 <h2>My svgs</h2>
 <ul class="svgs">
-    <li *ngFor="let svgs of SVGS">
-    <button type="button">
-      <span class="badge">{{freeSVG.id}}</span>
-      <span class="name">{{freeSVG.name}}</span>
-    </button>
+    <li *ngFor="let svgs of svgs">
+      <button [class.selected]="svgs === selectedsvg" type="button" (click)="onSelect(svgs)">
+      <span class="badge">{{svgs.id}}</span>
+      <span class="name">{{svgs.name}}</span>
+    
+      </button>
   </li>
 </ul>
+
+<div *ngIf="selectedsvg">
+  <h2>{{selectedsvg.name | uppercase}} Details</h2>
+  <div>id: {{selectedsvg.id}}</div>
+  <div>
+    <label for="svg-name">SVG name: </label>
+    <input id="svg-name" [(ngModel)]="selectedsvg.name" placeholder="name">
+  </div>
+</div>
 
 
