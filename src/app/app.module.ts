@@ -5,12 +5,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { FreeSVGSComponent } from './free-svgs/free-svgs.component';
 import { SvgDetailComponent } from './svg-detail/svg-detail.component';
+import { MessagesComponent } from './messages/messages.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     FreeSVGSComponent,
-    SvgDetailComponent
+    SvgDetailComponent,
+    MessagesComponent
   ],
   imports: [
     BrowserModule,

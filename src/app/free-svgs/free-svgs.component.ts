@@ -1,6 +1,10 @@
 import { Component } from '@angular/core';
+
 import {FreeSVG} from '../freeSVG';
 import { SVGS } from '../mock-svgs';
+
+import { svgService } from '../svg.service';
+import { MessageService } from '../message.service';
 
 @Component({
   selector: 'app-free-svgs',
@@ -8,10 +12,24 @@ import { SVGS } from '../mock-svgs';
   styleUrls: ['./free-svgs.component.scss']
 })
 export class FreeSVGSComponent {
-
-  svgs = SVGS;
+  
   selectedsvg?: FreeSVG;
+
+  svgs : FreeSVG[] = [];
+  
+  
+  constructor(private svgService: svgService, private messageService: MessageService) {};
+
+  getSvgs(): void {
+    this.svgService.getsvgs()
+    .subscribe(svgs => this.svgs = svgs);
+  }
+  ngOnInit(): void {
+    this.getSvgs();
+  }
+
   onSelect(svg: FreeSVG): void {
   this.selectedsvg = svg;
+  this.messageService.add(`SvgComponent: Selected svg id=${svg.id}`)
 }
 }

@@ -15,7 +15,7 @@
   cursor: pointer;
   position: relative;
   left: 0;
-  background-color: #EEE;
+  background-color: #57737A;
   margin: 0.5em;
   padding: 0;
   border-radius: 4px;
@@ -26,7 +26,7 @@
 
 .svgs button:hover {
   color: #2c3a41;
-  background-color: #e6e6e6;
+  background-color: #C9FBFF;
   left: 0.1em;
 }
 
