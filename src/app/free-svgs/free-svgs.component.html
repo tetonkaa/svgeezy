@@ -1,15 +1,15 @@
 <h2>My svgs</h2>
 <ul class="svgs">
     <li *ngFor="let svgs of svgs">
-      <button [class.selected]="svgs === selectedsvg" type="button" (click)="onSelect(svgs)">
+      <a routerLink="/detail/{{svgs.id}}">
       <span class="badge">{{svgs.id}}</span>
       <span class="name">{{svgs.name}}</span>
     
-      </button>
+      </a>
   </li>
 </ul>
 
-<app-svg-detail [svg]="selectedsvg"></app-svg-detail>
+
 
 
 

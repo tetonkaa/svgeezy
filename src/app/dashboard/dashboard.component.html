@@ -1,0 +1,7 @@
+<h2>Featured SVGS</h2>
+<div class="svg-menu">
+  <a *ngFor="let svg of svgs"
+        routerLink="/detail/{{svg.id}}">
+    {{svg.name}}
+  </a>
+</div>

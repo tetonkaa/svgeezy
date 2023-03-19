@@ -9,10 +9,20 @@ import { MessageService } from './message.service';
 })
 
 export class svgService {
-  getsvgs(): Observable<FreeSVG[]>  {
+  constructor(private messageService: MessageService) { }
+  getSvgs(): Observable<FreeSVG[]>  {
     const svgs = of(SVGS);
     this.messageService.add('svgService: fetched svgs');
     return svgs;
   }
-  constructor(private messageService: MessageService) { }
+
+  getSvg(id: number): Observable<FreeSVG> {
+    // For now, assume that a hero with the specified `id` always exists.
+    // Error handling will be added in the next step of the tutorial.
+    const svg = SVGS.find(h => h.id === id)!;
+    this.messageService.add(`svgService: fetched svg id=${id}`);
+    return of(svg);
+
+}
+
 }

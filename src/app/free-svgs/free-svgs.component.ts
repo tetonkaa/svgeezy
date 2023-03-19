@@ -13,7 +13,7 @@ import { MessageService } from '../message.service';
 })
 export class FreeSVGSComponent {
   
-  selectedsvg?: FreeSVG;
+
 
   svgs : FreeSVG[] = [];
   
@@ -21,15 +21,12 @@ export class FreeSVGSComponent {
   constructor(private svgService: svgService, private messageService: MessageService) {};
 
   getSvgs(): void {
-    this.svgService.getsvgs()
+    this.svgService.getSvgs()
     .subscribe(svgs => this.svgs = svgs);
   }
   ngOnInit(): void {
     this.getSvgs();
   }
 
-  onSelect(svg: FreeSVG): void {
-  this.selectedsvg = svg;
-  this.messageService.add(`SvgComponent: Selected svg id=${svg.id}`)
-}
+
 }

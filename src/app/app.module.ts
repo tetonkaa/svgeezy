@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { FreeSVGSComponent } from './free-svgs/free-svgs.component';
 import { SvgDetailComponent } from './svg-detail/svg-detail.component';
 import { MessagesComponent } from './messages/messages.component';
+import { DashboardComponent } from './dashboard/dashboard.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     FreeSVGSComponent,
     SvgDetailComponent,
-    MessagesComponent
+    MessagesComponent,
+    DashboardComponent
   ],
   imports: [
     BrowserModule,

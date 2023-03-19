@@ -7,47 +7,34 @@
 }
 
 .svgs li {
-  display: flex;
-}
-
-.svgs button {
-  flex: 1;
-  cursor: pointer;
   position: relative;
-  left: 0;
-  background-color: #57737A;
-  margin: 0.5em;
-  padding: 0;
-  border-radius: 4px;
-  display: flex;
-  align-items: stretch;
-  height: 1.8em;
+  cursor: pointer;
 }
 
-.svgs button:hover {
-  color: #2c3a41;
-  background-color: #C9FBFF;
+.svgs li:hover {
   left: 0.1em;
 }
 
-.svgs button:active {
+.svgs a {
+  color: #333;
+  text-decoration: none;
+  background-color: #EEE;
+  margin: 0.5em;
+  padding: 0.3em 0;
+  height: 1.6em;
+  border-radius: 4px;
+  display: block;
+  width: 100%;
+}
+
+.svgs a:hover {
+  color: #2c3a41;
+  background-color: #e6e6e6;
+}
+
+.svgs a:active {
   background-color: #525252;
   color: #fafafa;
-}
-
-.svgs button.selected {
-  background-color: black;
-  color: white;
-}
-
-.svgs button.selected:hover {
-  background-color: #505050;
-  color: white;
-}
-
-.svgs button.selected:active {
-  background-color: black;
-  color: white;
 }
 
 .svgs .badge {
@@ -57,10 +44,12 @@
   padding: 0.8em 0.7em 0 0.7em;
   background-color: #405061;
   line-height: 1em;
+  position: relative;
+  left: -1px;
+  top: -4px;
+  height: 1.8em;
+  min-width: 16px;
+  text-align: right;
   margin-right: 0.8em;
   border-radius: 4px 0 0 4px;
-}
-
-.svgs .name {
-  align-self: center;
 }/*# sourceMappingURL=free-svgs.component.css.map */
