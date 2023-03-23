@@ -1,1 +1,1 @@
-{"version":3,"sources":[],"names":[],"mappings":"","file":"svg-detail.component.css"}
+{"version":3,"sources":["svg-detail.component.scss","svg-detail.component.css"],"names":[],"mappings":"AAAA,6CAAA;AACA;EACI,cAAA;EACA,iBAAA;ACCJ;;ADCE;EACE,cAAA;EACA,eAAA;ACEJ;;ADAE;EACE,gBAAA;EACA,sBAAA;EACA,aAAA;EACA,kBAAA;EACA,eAAA;ACGJ;;ADDE;EACE,yBAAA;ACIJ;;ADFE;EACE,sBAAA;EACA,WAAA;EACA,YAAA;ACKJ","file":"svg-detail.component.css"}

@@ -24,6 +24,13 @@ export class SvgDetailComponent {
   ngOnInit(): void {
     this.getSvg();
   }
+
+  save(): void {
+    if (this.svg) {
+      this.svgService.updateSvg(this.svg)
+        .subscribe(() => this.goBack());
+    }
+  }
   
   getSvg(): void {
     const id = Number(this.route.snapshot.paramMap.get('id'));
