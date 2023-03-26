@@ -1,4 +1,10 @@
-/* HeroSearch private styles */
+#search-component {
+  color: #C2FCF7;
+  margin-left: 37.5%;
+  text-align: center;
+  width: 25%;
+}
+
 label {
   display: block;
   font-weight: bold;

@@ -9,7 +9,7 @@ export class InMemoryDataService implements InMemoryDbService {
   createDb() {
     const svgs = [
       { id: 12, name: 'Dr. Nice' },
-      { id: 13, name: 'Bombasto' },
+      { id: 13, name: 'Tylenol' },
       { id: 14, name: 'Celeritas' },
       { id: 15, name: 'Magneta' },
       { id: 16, name: 'RubberMan' },
