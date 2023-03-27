@@ -1,4 +1,10 @@
 /* SeroDetailComponent's private CSS styles */
+.SvgShowContainer {
+  margin: auto;
+  margin-left: 45%;
+  margin-top: 5%;
+}
+
 label {
   color: #435960;
   font-weight: bold;

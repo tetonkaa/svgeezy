@@ -1,26 +1,9 @@
-<h2>My svgs</h2>
+<h2>Catalogue</h2>
 <ul class="svgs">
-    <li *ngFor="let svgs of svgs">
-      <a routerLink="/detail/{{svgs.id}}">
-      <span class="badge">{{svgs.id}}</span>
-      <span class="name">{{svgs.name}}</span>
-      
+  <li *ngFor="let svgs of svgs">
+    <a routerLink="/detail/{{ svgs.id }}">
+      <span class="badge">{{ svgs.id }}</span>
+      <span class="name">{{ svgs.name }}</span>
     </a>
-    <button type="button" class="delete" title="delete svg"
-    (click)="delete(svgs)">x</button>
   </li>
 </ul>
-<div>
-  <label for="new-svg">Svg name: </label>
-  <input id="new-svg" #svgName />
-
-  <!-- (click) passes input value to add() and then clears the input -->
-  <button type="button" class="add-button" (click)="add(svgName.value); svgName.value=''">
-    Add svg
-  </button>
-  
-</div>
-
-
-
-
