@@ -1,5 +1,6 @@
 export interface FreeSVG {
     id: number;
     name: string;
-    SVGpath: string;
+    SVGpath: any;
+    src: string;
   }

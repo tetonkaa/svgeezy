@@ -20,26 +20,6 @@ export class InMemoryDataService implements InMemoryDbService {
       xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
       xmlns="http://www.w3.org/2000/svg"
       xmlns:svg="http://www.w3.org/2000/svg">
-     <sodipodi:namedview
-        id="namedview7"
-        pagecolor="#ffffff"
-        bordercolor="#111111"
-        borderopacity="1"
-        inkscape:showpageshadow="0"
-        inkscape:pageopacity="0"
-        inkscape:pagecheckerboard="1"
-        inkscape:deskcolor="#d1d1d1"
-        inkscape:document-units="mm"
-        showgrid="false"
-        inkscape:zoom="0.74564394"
-        inkscape:cx="396.97231"
-        inkscape:cy="561.9304"
-        inkscape:window-width="1920"
-        inkscape:window-height="1017"
-        inkscape:window-x="-8"
-        inkscape:window-y="-8"
-        inkscape:window-maximized="1"
-        inkscape:current-layer="layer1" />
      <defs
         id="defs2" />
      <g
@@ -58,8 +38,8 @@ export class InMemoryDataService implements InMemoryDbService {
           style="fill:#000000;stroke-width:0.264583"
           id="path283"
           d="m 97.4562,35.845384 c -2.259912,6.350664 -3.951821,12.858655 -4.743106,19.567044 -0.422883,3.585167 -0.657518,7.190038 -0.986279,10.785059 -2.457003,30.464834 -6.197169,60.803673 -9.899599,91.136063 -1.206672,9.04952 -1.937338,18.19953 -4.071692,27.09965 -0.768683,3.20537 -1.292503,4.65686 -2.273551,7.71537 -0.904113,2.54395 -1.824784,5.08445 -2.853322,7.58143 -0.537933,1.30593 -1.133163,2.58285 -1.655017,3.8954 -0.821436,2.19592 -1.534845,4.43154 -2.144633,6.69478 -1.059807,3.9309 -1.895964,7.9156 -2.798635,11.88418 0,0 3.357909,1.80348 3.357909,1.80348 v 0 c 0.842624,-3.97176 1.70113,-7.94259 2.825234,-11.84632 0.637818,-2.23971 1.364247,-4.4546 2.150496,-6.64676 1.474219,-3.85878 3.070617,-7.67252 4.295587,-11.62377 0.907746,-2.9741 1.494356,-4.70636 2.18254,-7.80691 2.002652,-9.02271 2.520913,-18.28017 3.475509,-27.44646 3.089417,-30.38793 6.629386,-60.727561 9.999146,-91.085244 0.439409,-3.529354 0.799102,-7.06955 1.318228,-10.588061 0.975154,-6.609358 2.680044,-13.07637 5.278905,-19.23415 0,0 -3.45772,-1.884781 -3.45772,-1.884781 z" />
-     </g>
-   </svg>` },
+     </g></svg>
+   `,src:'/assets/drawing.svg' },
       { id: 13, name: 'Tylenol' },
       { id: 14, name: 'Celeritas' },
       { id: 15, name: 'Magneta' },

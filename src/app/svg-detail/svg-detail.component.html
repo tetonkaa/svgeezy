@@ -2,9 +2,12 @@
   <h2>{{ svg.name | uppercase }} Svg</h2>
   <div>id: {{ svg.id }}</div>
   <div>
+    <img src={{svg.src}} />
     <label for="svg-name">SVG name: </label>
     <input id="svg-name" [(ngModel)]="svg.name" placeholder="name" />
   </div>
-  {{svg.SVGpath}}
+   {{svg.SVGpath}}
   <button type="button" (click)="goBack()">go back</button>
 </div>
+
+

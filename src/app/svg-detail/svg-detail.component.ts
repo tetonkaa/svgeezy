@@ -23,6 +23,7 @@ export class SvgDetailComponent {
 
   ngOnInit(): void {
     this.getSvg();
+  
   }
 
   save(): void {
@@ -40,5 +41,4 @@ export class SvgDetailComponent {
   goBack(): void {
     this.location.back();
   }
-
 }
