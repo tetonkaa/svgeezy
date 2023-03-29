@@ -41,4 +41,6 @@ export class SvgDetailComponent {
   goBack(): void {
     this.location.back();
   }
+
+
 }

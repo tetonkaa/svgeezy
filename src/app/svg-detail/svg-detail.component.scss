@@ -1,35 +1,42 @@
 /* SeroDetailComponent's private CSS styles */
 
-.SvgShowContainer{
+.SvgShowContainer {
   margin: auto;
   margin-left: 45%;
   margin-top: 5%;
 }
 
-img{
+h2 {
+  color: #c2fcf7;
+}
+img {
   height: 20vw;
   background-color: #eee;
 }
 label {
-    color: #435960;
-    font-weight: bold;
-  }
-  input {
-    font-size: 1em;
-    padding: .5rem;
-  }
-  button {
-    margin-top: 20px;
-    background-color: #eee;
-    padding: 1rem;
-    border-radius: 4px;
-    font-size: 1rem;
-  }
-  button:hover {
-    background-color: #cfd8dc;
-  }
-  button:disabled {
-    background-color: #eee;
-    color: #ccc;
-    cursor: auto;
-  }
+  color: #435960;
+  font-weight: bold;
+}
+input {
+  font-size: 1em;
+  padding: 0.5rem;
+}
+button {
+  margin-top: 20px;
+  background-color: #eee;
+  padding: 1rem;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+button:hover {
+  background-color: #cfd8dc;
+}
+button:disabled {
+  background-color: #eee;
+  color: #ccc;
+  cursor: auto;
+}
+
+#svg-Path {
+  width: 20vw;
+}

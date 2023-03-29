@@ -3,6 +3,7 @@
   <a *ngFor="let svg of svgs"
         routerLink="/detail/{{svg.id}}">
     {{svg.name}}
+    <img src={{svg.src}} />
   </a>
 </div>
 

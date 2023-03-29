@@ -8,7 +8,7 @@ import { FreeSVG } from './freeSVG';
 export class InMemoryDataService implements InMemoryDbService {
   createDb() {
     const svgs = [
-      { id: 12, name: 'Dr. Nice', SVGpath:`<svg
+      { id: 12, name: 'Directional Arrow (Up)', SVGpath:`<svg
       width="210mm"
       height="297mm"
       viewBox="0 0 210 297"

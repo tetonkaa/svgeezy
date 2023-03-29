@@ -5,6 +5,10 @@
   margin-top: 5%;
 }
 
+h2 {
+  color: #c2fcf7;
+}
+
 img {
   height: 20vw;
   background-color: #eee;
@@ -36,4 +40,8 @@ button:disabled {
   background-color: #eee;
   color: #ccc;
   cursor: auto;
+}
+
+#svg-Path {
+  width: 20vw;
 }/*# sourceMappingURL=svg-detail.component.css.map */
