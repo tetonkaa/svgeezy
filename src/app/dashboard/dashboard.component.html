@@ -1,10 +1,20 @@
+<app-svg-search></app-svg-search>
 <h2 class="FeaturedTitle">Featured SVGS</h2>
 <div class="svg-menu">
-  <a *ngFor="let svg of svgs"
-        routerLink="/detail/{{svg.id}}">
-    {{svg.name}}
-    <img src={{svg.src}} />
-  </a>
+  <div
+    class="featureCard"
+    *ngFor="let svg of svgs"
+    routerLink="/detail/{{ svg.id }}"
+  >
+    <img src="{{ svg.src }}" />
+    <h2>{{ svg.name }}</h2>
+  </div>
 </div>
 
-<app-svg-search></app-svg-search>
+
+
+
+
+
+
+

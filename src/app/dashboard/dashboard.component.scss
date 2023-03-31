@@ -1,5 +1,7 @@
 /* DashboardComponent's private CSS styles */
 
+
+
 h2 {
     text-align: center;
     margin-top: 2vw;
@@ -8,7 +10,7 @@ h2 {
   .svg-menu {
     padding: 0;
     margin: auto;
-    max-width: 1000px;
+    
     margin-top: 5vw;
     /* flexbox */
     display: flex;
@@ -17,9 +19,29 @@ h2 {
     justify-content: space-around;
     align-content: flex-start;
     align-items: flex-start;
+
   }
   .FeaturedTitle{
-    color: #C2FCF7
+    color: #fb6348;
+    font-size: 1.5vw;
+    padding-top: 2vw;
+  }
+  h2{
+    color: #fb6348;
+    
+  }
+  .featureCard{
+    border: solid black;
+    height: 20vw;
+    width: 15vw;
+    background-color: #040F0F;
+    box-shadow: 10px 10px 5px rgb(0, 0, 0);
+  }
+  .featureCard img{
+    
+    height: 15vw;
+    width:100%;
+    background-color: white;
   }
   a {
     background-color: #85BDBF;

@@ -6,26 +6,31 @@ h1 {
 }
 
 body {
-  background-color: #040F0F;
+  background-color: #040f0f;
 }
 
-h2, h3 {
+h2,
+h3 {
   color: #444;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: lighter;
 }
 
-body {
-  margin: 2em;
-}
-
-body, input[type=text], button {
+body,
+input[type=text],
+button {
   color: #333;
   font-family: Cambria, Georgia, serif;
 }
 
+#animatedSVG1 {
+  position: fixed;
+  z-index: -1;
+  filter: opacity(0.4);
+}
+
 button {
-  background-color: #57737A;
+  background-color: #57737a;
   border: none;
   border-radius: 4px;
   cursor: pointer;
@@ -51,4 +56,29 @@ button:disabled {
 /* everywhere else */
 * {
   font-family: Arial, Helvetica, sans-serif;
+}
+
+#filter-doodad-1 {
+  animation: bgMotion1 8s linear infinite alternate;
+}
+
+#path2 {
+  animation: bgMotion2 8s linear infinite alternate;
+}
+
+@keyframes bgMotion1 {
+  0% {
+    feDisplacementMap: scale("0");
+  }
+  100% {
+    feDisplacementMap: scale("5");
+  }
+}
+@keyframes bgMotion2 {
+  0% {
+    d: path("M0 7.5a 12.5 12.5 0 0 1 12.5 12.5a 7.5 7.5 0 0 0 7.5 7.5a 7.5-7.5 0 0 0 7.5-7.5a 12.5-12.5 0 0 1 12.5-12.5a 12.5 12.5 0 0 1 12.5 12.5a 7.5 7.5 0 0 0 7.5 7.5v5a-12.5-12.5 0 0 1-12.5-12.5a-7.5-7.5 0 0 0-7.5-7.5a-7.5 7.5 0 0 0-7.5 7.5a-12.5 12.5 0 0 1-12.5 12.5a-12.5-12.5 0 0 1-12.5-12.5a-7.5-7.5 0 0 0-7.5-7.5a-7.5 7.5 0 0 0-7.5 7.5h-5a 12.5-12.5 0 0 1 12.5-12.5z");
+  }
+  100% {
+    d: path("M0 9.5a 10.5 10.5 0 0 1 10.5 10.5a 9.5 9.5 0 0 0 9.5 9.5a 9.5-9.5 0 0 0 9.5-9.5a 10.5-10.5 0 0 1 10.5-10.5a 10.5 10.5 0 0 1 10.5 10.5a 9.5 9.5 0 0 0 9.5 9.5v1a-10.5-10.5 0 0 1-10.5-10.5a-9.5-9.5 0 0 0-9.5-9.5a-9.5 9.5 0 0 0-9.5 9.5a-10.5 10.5 0 0 1-10.5 10.5a-10.5-10.5 0 0 1-10.5-10.5a-9.5-9.5 0 0 0-9.5-9.5a-9.5 9.5 0 0 0-9.5 9.5h-1a 10.5-10.5 0 0 1 10.5-10.5z");
+  }
 }/*# sourceMappingURL=styles.css.map */

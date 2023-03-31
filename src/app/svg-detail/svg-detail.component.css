@@ -1,17 +1,20 @@
 /* SeroDetailComponent's private CSS styles */
 .SvgShowContainer {
-  margin: auto;
-  margin-left: 45%;
-  margin-top: 5%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 2.5vw;
 }
 
 h2 {
-  color: #c2fcf7;
+  color: #fb6348;
 }
 
 img {
   height: 20vw;
-  background-color: #eee;
+  background-color: rgb(255, 255, 255);
+  border: #C2FCF7 5px solid;
+  box-shadow: 5.4px 10.7px 10.7px hsla(0, 0%, 0%, 0.33);
 }
 
 label {
