@@ -31,8 +31,13 @@ h2 {
   border: solid black;
   height: 20vw;
   width: 15vw;
-  background-color: #040F0F;
+  background-color: #040f0f;
   box-shadow: 10px 10px 5px rgb(0, 0, 0);
+}
+
+.featureCard:hover {
+  transform: translate(0, -8px);
+  transition: transform 300ms ease-in-out;
 }
 
 .featureCard img {
@@ -42,7 +47,7 @@ h2 {
 }
 
 a {
-  background-color: #85BDBF;
+  background-color: #85bdbf;
   border-radius: 2px;
   padding: 1rem;
   font-size: 1.2rem;
