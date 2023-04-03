@@ -11,6 +11,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { HttpClientInMemoryWebApiModule } from 'angular-in-memory-web-api';
 import { InMemoryDataService } from './in-memory-data.service';
 import { SvgSearchComponent } from './svg-search/svg-search.component';
+import { AboutComponent } from './about/about.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { SvgSearchComponent } from './svg-search/svg-search.component';
     SvgDetailComponent,
     MessagesComponent,
     DashboardComponent,
-    SvgSearchComponent
+    SvgSearchComponent,
+    AboutComponent
     
   ],
   imports: [

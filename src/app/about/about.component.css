@@ -1,0 +1,21 @@
+h1 {
+  color: #fb6348;
+}
+
+p {
+  color: #C2FCF7;
+}
+
+.contributorDetail img {
+  border-radius: 50%;
+  height: 10em;
+}
+
+.Git {
+  height: 3em;
+}
+
+.About {
+  padding: 1.5em;
+  text-align: center;
+}/*# sourceMappingURL=about.component.css.map */

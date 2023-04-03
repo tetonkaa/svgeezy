@@ -21,7 +21,7 @@ label {
   }
   
   input:focus {
-    outline: #336699 auto 1px;
+    outline: none;
   }
   
   li {
@@ -49,4 +49,11 @@ label {
     margin-top: 0;
     padding-left: 0;
     background-color: #C2FCF7;
+  }
+
+  #search-box{
+    text-align: center;
+    background-color: rgb(194,252,247, .6);
+    border:none;
+    border-bottom: 5px #435A60 solid;
   }

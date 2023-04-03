@@ -1,4 +1,8 @@
 /* DashboardComponent's private CSS styles */
+@font-face {
+  font-family: "DiscoDiva";
+  src: url("../../assets/fonts/DiscoDiva.ttf") format("truetype");
+}
 h2 {
   text-align: center;
   margin-top: 2vw;
@@ -19,8 +23,11 @@ h2 {
 
 .FeaturedTitle {
   color: #fb6348;
-  font-size: 1.5vw;
+  font-size: 2.5vw;
   padding-top: 2vw;
+  font-family: "DiscoDiva" !important;
+  font-weight: 700;
+  text-shadow: 1px 1px 2px red, 0 0 1em rgb(244, 244, 244), 0 0 0.2em rgb(255, 30, 0);
 }
 
 h2 {
@@ -38,6 +45,7 @@ h2 {
 .featureCard:hover {
   transform: translate(0, -8px);
   transition: transform 300ms ease-in-out;
+  cursor: pointer;
 }
 
 .featureCard img {

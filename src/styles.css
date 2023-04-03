@@ -5,6 +5,10 @@ h1 {
   font-size: 250%;
 }
 
+@font-face {
+  font-family: "DiscoDiva";
+  src: local("DiscoDiva") url("./assets/fonts/DiscoDiva.ttf") format("truetype");
+}
 body {
   background-color: #040f0f;
 }
