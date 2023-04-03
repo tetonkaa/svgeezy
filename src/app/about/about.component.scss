@@ -10,6 +10,9 @@ p{
     
 }
 
+.contributorDetail img:hover{
+    filter:url(#squiggly-3)
+}
 .contributorDetail img{
     border-radius: 50%;
     height: 10em;

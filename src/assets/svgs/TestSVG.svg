@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.2.2 (732a01da63, 2022-12-09)"
+   sodipodi:docname="TestSVG.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#111111"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="1"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="0.74564394"
+     inkscape:cx="396.97231"
+     inkscape:cy="561.25984"
+     inkscape:window-width="1350"
+     inkscape:window-height="1040"
+     inkscape:window-x="743"
+     inkscape:window-y="46"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2">
+    <rect
+       x="107.28981"
+       y="266.88341"
+       width="602.16408"
+       height="642.39776"
+       id="rect113" />
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <text
+       xml:space="preserve"
+       transform="matrix(0.26458333,0,0,0.26458333,27.322581,44.354839)"
+       id="text111"
+       style="font-size:64px;white-space:pre;shape-inside:url(#rect113);display:inline;fill:#000000"><tspan
+         x="107.28906"
+         y="325.27195"
+         id="tspan311"><tspan
+           style="font-family:'Franklin Gothic Medium';-inkscape-font-specification:'Franklin Gothic Medium, '"
+           id="tspan307"> </tspan><tspan
+           style="font-family:'Franklin Gothic Medium';-inkscape-font-specification:'Franklin Gothic Medium, '"
+           id="tspan309"> THIS IS A TEST
+</tspan></tspan><tspan
+         x="107.28906"
+         y="405.3177"
+         id="tspan315"><tspan
+           style="font-family:'Franklin Gothic Medium';-inkscape-font-specification:'Franklin Gothic Medium, '"
+           id="tspan313">       IMAGE</tspan></tspan></text>
+  </g>
+</svg>

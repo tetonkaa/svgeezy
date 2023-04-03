@@ -92,13 +92,461 @@ export class InMemoryDataService implements InMemoryDbService {
           d="m 104.89484,150.77814 c -17.285074,-0.96745 -34.603104,-0.93115 -51.904764,-1.37828 -5.3117,-0.13727 -10.62191,-0.32721 -15.93286,-0.49081 -18.3,-0.82441 -9.54868,-0.36685 -26.25561,-1.34128 0,0 2.26609,1.6647 2.26609,1.6647 v 0 c 16.47158,0.77306 7.82844,0.40092 25.93031,1.09559 10.75331,0.31621 21.50798,0.58498 32.26121,0.90407 12.26823,0.36405 24.55213,0.72147 36.779444,1.85019 0,0 -3.14382,-2.30418 -3.14382,-2.30418 z" />
      </g>
    </svg>`, src: '/assets/svgs/left-arrow(drawn).svg'  },
-      { id: 14, name: 'Celeritas' },
-      { id: 15, name: 'Magneta' },
-      { id: 16, name: 'RubberMan' },
-      { id: 17, name: 'Dynama' },
-      { id: 18, name: 'Dr. IQ' },
-      { id: 19, name: 'Magma' },
-      { id: 20, name: 'Tornado' }
+      { id: 14, name: 'Test', SVGpath: `<svg
+      width="210mm"
+      height="297mm"
+      viewBox="0 0 210 297"
+      version="1.1"
+      id="svg5"
+      inkscape:version="1.2.2 (732a01da63, 2022-12-09)"
+      sodipodi:docname="TestSVG.svg"
+      xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+      xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+      xmlns="http://www.w3.org/2000/svg"
+      xmlns:svg="http://www.w3.org/2000/svg">
+     <sodipodi:namedview
+        id="namedview7"
+        pagecolor="#ffffff"
+        bordercolor="#111111"
+        borderopacity="1"
+        inkscape:showpageshadow="0"
+        inkscape:pageopacity="0"
+        inkscape:pagecheckerboard="1"
+        inkscape:deskcolor="#d1d1d1"
+        inkscape:document-units="mm"
+        showgrid="false"
+        inkscape:zoom="0.74564394"
+        inkscape:cx="396.97231"
+        inkscape:cy="561.25984"
+        inkscape:window-width="1350"
+        inkscape:window-height="1040"
+        inkscape:window-x="743"
+        inkscape:window-y="46"
+        inkscape:window-maximized="0"
+        inkscape:current-layer="layer1" />
+     <defs
+        id="defs2">
+       <rect
+          x="107.28981"
+          y="266.88341"
+          width="602.16408"
+          height="642.39776"
+          id="rect113" />
+     </defs>
+     <g
+        inkscape:label="Layer 1"
+        inkscape:groupmode="layer"
+        id="layer1">
+       <text
+          xml:space="preserve"
+          transform="matrix(0.26458333,0,0,0.26458333,27.322581,44.354839)"
+          id="text111"
+          style="font-size:64px;white-space:pre;shape-inside:url(#rect113);display:inline;fill:#000000"><tspan
+            x="107.28906"
+            y="325.27195"
+            id="tspan311"><tspan
+              style="font-family:'Franklin Gothic Medium';-inkscape-font-specification:'Franklin Gothic Medium, '"
+              id="tspan307"> </tspan><tspan
+              style="font-family:'Franklin Gothic Medium';-inkscape-font-specification:'Franklin Gothic Medium, '"
+              id="tspan309"> THIS IS A TEST
+   </tspan></tspan><tspan
+            x="107.28906"
+            y="405.3177"
+            id="tspan315"><tspan
+              style="font-family:'Franklin Gothic Medium';-inkscape-font-specification:'Franklin Gothic Medium, '"
+              id="tspan313">       IMAGE</tspan></tspan></text>
+     </g>
+   </svg>`, src:"/assets/svgs/TestSVG.svg" },
+      { id: 15, name: 'Test', SVGpath: `<svg
+      width="210mm"
+      height="297mm"
+      viewBox="0 0 210 297"
+      version="1.1"
+      id="svg5"
+      inkscape:version="1.2.2 (732a01da63, 2022-12-09)"
+      sodipodi:docname="TestSVG.svg"
+      xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+      xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+      xmlns="http://www.w3.org/2000/svg"
+      xmlns:svg="http://www.w3.org/2000/svg">
+     <sodipodi:namedview
+        id="namedview7"
+        pagecolor="#ffffff"
+        bordercolor="#111111"
+        borderopacity="1"
+        inkscape:showpageshadow="0"
+        inkscape:pageopacity="0"
+        inkscape:pagecheckerboard="1"
+        inkscape:deskcolor="#d1d1d1"
+        inkscape:document-units="mm"
+        showgrid="false"
+        inkscape:zoom="0.74564394"
+        inkscape:cx="396.97231"
+        inkscape:cy="561.25984"
+        inkscape:window-width="1350"
+        inkscape:window-height="1040"
+        inkscape:window-x="743"
+        inkscape:window-y="46"
+        inkscape:window-maximized="0"
+        inkscape:current-layer="layer1" />
+     <defs
+        id="defs2">
+       <rect
+          x="107.28981"
+          y="266.88341"
+          width="602.16408"
+          height="642.39776"
+          id="rect113" />
+     </defs>
+     <g
+        inkscape:label="Layer 1"
+        inkscape:groupmode="layer"
+        id="layer1">
+       <text
+          xml:space="preserve"
+          transform="matrix(0.26458333,0,0,0.26458333,27.322581,44.354839)"
+          id="text111"
+          style="font-size:64px;white-space:pre;shape-inside:url(#rect113);display:inline;fill:#000000"><tspan
+            x="107.28906"
+            y="325.27195"
+            id="tspan311"><tspan
+              style="font-family:'Franklin Gothic Medium';-inkscape-font-specification:'Franklin Gothic Medium, '"
+              id="tspan307"> </tspan><tspan
+              style="font-family:'Franklin Gothic Medium';-inkscape-font-specification:'Franklin Gothic Medium, '"
+              id="tspan309"> THIS IS A TEST
+   </tspan></tspan><tspan
+            x="107.28906"
+            y="405.3177"
+            id="tspan315"><tspan
+              style="font-family:'Franklin Gothic Medium';-inkscape-font-specification:'Franklin Gothic Medium, '"
+              id="tspan313">       IMAGE</tspan></tspan></text>
+     </g>
+   </svg>`, src:"/assets/svgs/TestSVG.svg"  },
+      { id: 16, name: 'Test', SVGpath: `<svg
+      width="210mm"
+      height="297mm"
+      viewBox="0 0 210 297"
+      version="1.1"
+      id="svg5"
+      inkscape:version="1.2.2 (732a01da63, 2022-12-09)"
+      sodipodi:docname="TestSVG.svg"
+      xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+      xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+      xmlns="http://www.w3.org/2000/svg"
+      xmlns:svg="http://www.w3.org/2000/svg">
+     <sodipodi:namedview
+        id="namedview7"
+        pagecolor="#ffffff"
+        bordercolor="#111111"
+        borderopacity="1"
+        inkscape:showpageshadow="0"
+        inkscape:pageopacity="0"
+        inkscape:pagecheckerboard="1"
+        inkscape:deskcolor="#d1d1d1"
+        inkscape:document-units="mm"
+        showgrid="false"
+        inkscape:zoom="0.74564394"
+        inkscape:cx="396.97231"
+        inkscape:cy="561.25984"
+        inkscape:window-width="1350"
+        inkscape:window-height="1040"
+        inkscape:window-x="743"
+        inkscape:window-y="46"
+        inkscape:window-maximized="0"
+        inkscape:current-layer="layer1" />
+     <defs
+        id="defs2">
+       <rect
+          x="107.28981"
+          y="266.88341"
+          width="602.16408"
+          height="642.39776"
+          id="rect113" />
+     </defs>
+     <g
+        inkscape:label="Layer 1"
+        inkscape:groupmode="layer"
+        id="layer1">
+       <text
+          xml:space="preserve"
+          transform="matrix(0.26458333,0,0,0.26458333,27.322581,44.354839)"
+          id="text111"
+          style="font-size:64px;white-space:pre;shape-inside:url(#rect113);display:inline;fill:#000000"><tspan
+            x="107.28906"
+            y="325.27195"
+            id="tspan311"><tspan
+              style="font-family:'Franklin Gothic Medium';-inkscape-font-specification:'Franklin Gothic Medium, '"
+              id="tspan307"> </tspan><tspan
+              style="font-family:'Franklin Gothic Medium';-inkscape-font-specification:'Franklin Gothic Medium, '"
+              id="tspan309"> THIS IS A TEST
+   </tspan></tspan><tspan
+            x="107.28906"
+            y="405.3177"
+            id="tspan315"><tspan
+              style="font-family:'Franklin Gothic Medium';-inkscape-font-specification:'Franklin Gothic Medium, '"
+              id="tspan313">       IMAGE</tspan></tspan></text>
+     </g>
+   </svg>`, src:"/assets/svgs/TestSVG.svg"  },
+      { id: 17,  name: 'Test', SVGpath: `<svg
+      width="210mm"
+      height="297mm"
+      viewBox="0 0 210 297"
+      version="1.1"
+      id="svg5"
+      inkscape:version="1.2.2 (732a01da63, 2022-12-09)"
+      sodipodi:docname="TestSVG.svg"
+      xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+      xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+      xmlns="http://www.w3.org/2000/svg"
+      xmlns:svg="http://www.w3.org/2000/svg">
+     <sodipodi:namedview
+        id="namedview7"
+        pagecolor="#ffffff"
+        bordercolor="#111111"
+        borderopacity="1"
+        inkscape:showpageshadow="0"
+        inkscape:pageopacity="0"
+        inkscape:pagecheckerboard="1"
+        inkscape:deskcolor="#d1d1d1"
+        inkscape:document-units="mm"
+        showgrid="false"
+        inkscape:zoom="0.74564394"
+        inkscape:cx="396.97231"
+        inkscape:cy="561.25984"
+        inkscape:window-width="1350"
+        inkscape:window-height="1040"
+        inkscape:window-x="743"
+        inkscape:window-y="46"
+        inkscape:window-maximized="0"
+        inkscape:current-layer="layer1" />
+     <defs
+        id="defs2">
+       <rect
+          x="107.28981"
+          y="266.88341"
+          width="602.16408"
+          height="642.39776"
+          id="rect113" />
+     </defs>
+     <g
+        inkscape:label="Layer 1"
+        inkscape:groupmode="layer"
+        id="layer1">
+       <text
+          xml:space="preserve"
+          transform="matrix(0.26458333,0,0,0.26458333,27.322581,44.354839)"
+          id="text111"
+          style="font-size:64px;white-space:pre;shape-inside:url(#rect113);display:inline;fill:#000000"><tspan
+            x="107.28906"
+            y="325.27195"
+            id="tspan311"><tspan
+              style="font-family:'Franklin Gothic Medium';-inkscape-font-specification:'Franklin Gothic Medium, '"
+              id="tspan307"> </tspan><tspan
+              style="font-family:'Franklin Gothic Medium';-inkscape-font-specification:'Franklin Gothic Medium, '"
+              id="tspan309"> THIS IS A TEST
+   </tspan></tspan><tspan
+            x="107.28906"
+            y="405.3177"
+            id="tspan315"><tspan
+              style="font-family:'Franklin Gothic Medium';-inkscape-font-specification:'Franklin Gothic Medium, '"
+              id="tspan313">       IMAGE</tspan></tspan></text>
+     </g>
+   </svg>`, src:"/assets/svgs/TestSVG.svg" },
+      { id: 18,  name: 'Test', SVGpath: `<svg
+      width="210mm"
+      height="297mm"
+      viewBox="0 0 210 297"
+      version="1.1"
+      id="svg5"
+      inkscape:version="1.2.2 (732a01da63, 2022-12-09)"
+      sodipodi:docname="TestSVG.svg"
+      xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+      xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+      xmlns="http://www.w3.org/2000/svg"
+      xmlns:svg="http://www.w3.org/2000/svg">
+     <sodipodi:namedview
+        id="namedview7"
+        pagecolor="#ffffff"
+        bordercolor="#111111"
+        borderopacity="1"
+        inkscape:showpageshadow="0"
+        inkscape:pageopacity="0"
+        inkscape:pagecheckerboard="1"
+        inkscape:deskcolor="#d1d1d1"
+        inkscape:document-units="mm"
+        showgrid="false"
+        inkscape:zoom="0.74564394"
+        inkscape:cx="396.97231"
+        inkscape:cy="561.25984"
+        inkscape:window-width="1350"
+        inkscape:window-height="1040"
+        inkscape:window-x="743"
+        inkscape:window-y="46"
+        inkscape:window-maximized="0"
+        inkscape:current-layer="layer1" />
+     <defs
+        id="defs2">
+       <rect
+          x="107.28981"
+          y="266.88341"
+          width="602.16408"
+          height="642.39776"
+          id="rect113" />
+     </defs>
+     <g
+        inkscape:label="Layer 1"
+        inkscape:groupmode="layer"
+        id="layer1">
+       <text
+          xml:space="preserve"
+          transform="matrix(0.26458333,0,0,0.26458333,27.322581,44.354839)"
+          id="text111"
+          style="font-size:64px;white-space:pre;shape-inside:url(#rect113);display:inline;fill:#000000"><tspan
+            x="107.28906"
+            y="325.27195"
+            id="tspan311"><tspan
+              style="font-family:'Franklin Gothic Medium';-inkscape-font-specification:'Franklin Gothic Medium, '"
+              id="tspan307"> </tspan><tspan
+              style="font-family:'Franklin Gothic Medium';-inkscape-font-specification:'Franklin Gothic Medium, '"
+              id="tspan309"> THIS IS A TEST
+   </tspan></tspan><tspan
+            x="107.28906"
+            y="405.3177"
+            id="tspan315"><tspan
+              style="font-family:'Franklin Gothic Medium';-inkscape-font-specification:'Franklin Gothic Medium, '"
+              id="tspan313">       IMAGE</tspan></tspan></text>
+     </g>
+   </svg>`, src:"/assets/svgs/TestSVG.svg" },
+      { id: 19,  name: 'Test', SVGpath: `<svg
+      width="210mm"
+      height="297mm"
+      viewBox="0 0 210 297"
+      version="1.1"
+      id="svg5"
+      inkscape:version="1.2.2 (732a01da63, 2022-12-09)"
+      sodipodi:docname="TestSVG.svg"
+      xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+      xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+      xmlns="http://www.w3.org/2000/svg"
+      xmlns:svg="http://www.w3.org/2000/svg">
+     <sodipodi:namedview
+        id="namedview7"
+        pagecolor="#ffffff"
+        bordercolor="#111111"
+        borderopacity="1"
+        inkscape:showpageshadow="0"
+        inkscape:pageopacity="0"
+        inkscape:pagecheckerboard="1"
+        inkscape:deskcolor="#d1d1d1"
+        inkscape:document-units="mm"
+        showgrid="false"
+        inkscape:zoom="0.74564394"
+        inkscape:cx="396.97231"
+        inkscape:cy="561.25984"
+        inkscape:window-width="1350"
+        inkscape:window-height="1040"
+        inkscape:window-x="743"
+        inkscape:window-y="46"
+        inkscape:window-maximized="0"
+        inkscape:current-layer="layer1" />
+     <defs
+        id="defs2">
+       <rect
+          x="107.28981"
+          y="266.88341"
+          width="602.16408"
+          height="642.39776"
+          id="rect113" />
+     </defs>
+     <g
+        inkscape:label="Layer 1"
+        inkscape:groupmode="layer"
+        id="layer1">
+       <text
+          xml:space="preserve"
+          transform="matrix(0.26458333,0,0,0.26458333,27.322581,44.354839)"
+          id="text111"
+          style="font-size:64px;white-space:pre;shape-inside:url(#rect113);display:inline;fill:#000000"><tspan
+            x="107.28906"
+            y="325.27195"
+            id="tspan311"><tspan
+              style="font-family:'Franklin Gothic Medium';-inkscape-font-specification:'Franklin Gothic Medium, '"
+              id="tspan307"> </tspan><tspan
+              style="font-family:'Franklin Gothic Medium';-inkscape-font-specification:'Franklin Gothic Medium, '"
+              id="tspan309"> THIS IS A TEST
+   </tspan></tspan><tspan
+            x="107.28906"
+            y="405.3177"
+            id="tspan315"><tspan
+              style="font-family:'Franklin Gothic Medium';-inkscape-font-specification:'Franklin Gothic Medium, '"
+              id="tspan313">       IMAGE</tspan></tspan></text>
+     </g>
+   </svg>`, src:"/assets/svgs/TestSVG.svg" },
+      { id: 20,  name: 'Test', SVGpath: `<svg
+      width="210mm"
+      height="297mm"
+      viewBox="0 0 210 297"
+      version="1.1"
+      id="svg5"
+      inkscape:version="1.2.2 (732a01da63, 2022-12-09)"
+      sodipodi:docname="TestSVG.svg"
+      xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+      xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+      xmlns="http://www.w3.org/2000/svg"
+      xmlns:svg="http://www.w3.org/2000/svg">
+     <sodipodi:namedview
+        id="namedview7"
+        pagecolor="#ffffff"
+        bordercolor="#111111"
+        borderopacity="1"
+        inkscape:showpageshadow="0"
+        inkscape:pageopacity="0"
+        inkscape:pagecheckerboard="1"
+        inkscape:deskcolor="#d1d1d1"
+        inkscape:document-units="mm"
+        showgrid="false"
+        inkscape:zoom="0.74564394"
+        inkscape:cx="396.97231"
+        inkscape:cy="561.25984"
+        inkscape:window-width="1350"
+        inkscape:window-height="1040"
+        inkscape:window-x="743"
+        inkscape:window-y="46"
+        inkscape:window-maximized="0"
+        inkscape:current-layer="layer1" />
+     <defs
+        id="defs2">
+       <rect
+          x="107.28981"
+          y="266.88341"
+          width="602.16408"
+          height="642.39776"
+          id="rect113" />
+     </defs>
+     <g
+        inkscape:label="Layer 1"
+        inkscape:groupmode="layer"
+        id="layer1">
+       <text
+          xml:space="preserve"
+          transform="matrix(0.26458333,0,0,0.26458333,27.322581,44.354839)"
+          id="text111"
+          style="font-size:64px;white-space:pre;shape-inside:url(#rect113);display:inline;fill:#000000"><tspan
+            x="107.28906"
+            y="325.27195"
+            id="tspan311"><tspan
+              style="font-family:'Franklin Gothic Medium';-inkscape-font-specification:'Franklin Gothic Medium, '"
+              id="tspan307"> </tspan><tspan
+              style="font-family:'Franklin Gothic Medium';-inkscape-font-specification:'Franklin Gothic Medium, '"
+              id="tspan309"> THIS IS A TEST
+   </tspan></tspan><tspan
+            x="107.28906"
+            y="405.3177"
+            id="tspan315"><tspan
+              style="font-family:'Franklin Gothic Medium';-inkscape-font-specification:'Franklin Gothic Medium, '"
+              id="tspan313">       IMAGE</tspan></tspan></text>
+     </g>
+   </svg>`, src:"/assets/svgs/TestSVG.svg" }
     ];
     return {svgs};
   }
