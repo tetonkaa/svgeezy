@@ -3,4 +3,5 @@ export interface FreeSVG {
     name: string;
     SVGpath: any;
     src: string;
+    download: string;
   }

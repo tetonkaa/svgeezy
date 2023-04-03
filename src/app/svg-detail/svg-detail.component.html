@@ -1,15 +1,22 @@
 <div class="SvgShowContainer" *ngIf="svg">
   <h2>{{ svg.name }} Svg</h2>
-  
-  <br/>
+
+  <br />
   <div>
-    <img src={{svg.src}} />
-  <br/>
-    <label for="svg-name">SVG Code: </label>
+    <img src="{{ svg.src }}" />
+    <br />
+    <br />
   </div>
-  <input matInput onfocus="this.select()" id="svg-Path" [(ngModel)]="svg.SVGpath" />
-   <br/>
-  <button type="button" (click)="goBack()">go back</button>
+  <label for="svg-name">SVG Code: </label>
+  <input
+    matInput
+    onfocus="this.select()"
+    id="svg-Path"
+    [(ngModel)]="svg.SVGpath"
+  />
+  <br />
+  <button>
+    <a href="{{ svg.src }}" download="{{svg.name}}.svg"> Download </a>
+  </button>
+  <button type="button" (click)="goBack()">Go back</button>
 </div>
-
-

@@ -31,14 +31,14 @@ h2 {
 }
 
 h2 {
-  color: #fb6348;
+  color: #fb9481;
 }
 
 .featureCard {
   border: solid black;
   height: 20vw;
   width: 15vw;
-  background-color: #040f0f;
+  background-color: #57737A;
   box-shadow: 10px 10px 5px rgb(0, 0, 0);
 }
 
@@ -51,11 +51,12 @@ h2 {
 .featureCard img {
   height: 15vw;
   width: 100%;
-  background-color: white;
+  background-color: #57737A;
+  border: none;
 }
 
 a {
-  background-color: #85bdbf;
+  background-color: #757a57;
   border-radius: 2px;
   padding: 1rem;
   font-size: 1.2rem;
@@ -66,10 +67,8 @@ a {
   width: 100%;
   min-width: 70px;
   margin: 0.5rem auto;
-  box-sizing: border-box;
-  /* flexbox */
+  border: none;
   order: 0;
-  flex: 0 1 auto;
   align-self: auto;
 }
 
