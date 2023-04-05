@@ -6,6 +6,10 @@ p {
   color: #C2FCF7;
 }
 
+.contributorDetail img:hover {
+  scale: 1.2;
+}
+
 .contributorDetail img {
   border-radius: 50%;
   height: 10em;

@@ -11,7 +11,7 @@ p{
 }
 
 .contributorDetail img:hover{
-    filter:url(#squiggly-3)
+    scale: 1.2;
 }
 .contributorDetail img{
     border-radius: 50%;
@@ -26,4 +26,8 @@ p{
 .About{
     padding: 1.5em;
     text-align: center;
+}
+
+img:hover{
+    
 }

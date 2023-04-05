@@ -5,9 +5,9 @@
   
 }
 
+
 h2 {
   text-align: center;
-  margin-top: 2vw;
 }
 
 .svg-menu {
@@ -32,7 +32,8 @@ h2 {
   text-shadow: 1px 1px 2px red, 0 0 1em rgb(244, 244, 244), 0 0 0.2em rgb(255, 30, 0);
 }
 h2 {
-  color: #fb9481
+  color: #fb9481;
+  font-size: 1.5rem;
 }
 .featureCard {
   border: solid black;
@@ -55,22 +56,7 @@ h2 {
   background-color: #57737A;
   border: none;
 }
-a {
-  background-color: #757a57;
-  border-radius: 2px;
-  padding: 1rem;
-  font-size: 1.2rem;
-  text-decoration: none;
-  display: inline-block;
-  color: #fff;
-  text-align: center;
-  width: 100%;
-  min-width: 70px;
-  margin: 0.5rem auto;
-  border: none;
-  order: 0;
-  align-self: auto;
-}
+
 
 @media (min-width: 600px) {
   a {
@@ -82,3 +68,4 @@ a {
 a:hover {
   background-color: #000;
 }
+

@@ -6,11 +6,13 @@ h1 {
 }
 h1 {
   font-size: 1vw;
-  padding-top: 2vw;
 }
 .logoDiv{
   display:flex;
-  justify-content: row;
+  flex-direction: row;
+}
+.logoDiv img{
+  padding-left: 1vw;
 }
 nav{
   display:flex;
@@ -18,8 +20,11 @@ nav{
   background-color: #040F0F;
   padding: 1em 0em ;
 }
+.navLinks{
+  padding-right: 10vw;
+}
 nav img{
-  width: 12vw;
+  max-height: 2vw;
 }
 
 nav a {
