@@ -129,7 +129,7 @@ export class InMemoryDataService implements InMemoryDbService {
      -21 39 -3 33 25 -9z"/>
      </g>
      </svg>
-   `,src:'/assets/svgs/drawing.svg', download: 'drawing.svg'},
+   `,src:'/assets/svgs/SettingsCogs.svg', download: 'drawing.svg'},
       { id: 13, name: 'Wifi',SVGpath:`<svg version="1.0" xmlns="http://www.w3.org/2000/svg"
       width="300.000000pt" height="167.000000pt" viewBox="0 0 300.000000 167.000000"
       preserveAspectRatio="xMidYMid meet">
@@ -1433,7 +1433,7 @@ export class InMemoryDataService implements InMemoryDbService {
      9 21 18 73 21 117 2 44 9 86 16 94 17 21 8 222 -11 234 -21 14 -28 12 -39 -7z"/>
      </g>
      </svg>`, src:"/assets/svgs/google.svg" },
-      { id: 18,  name: 'Heart', SVGpath: ` <svg  version="1.0" xmlns="http://www.w3.org/2000/svg"  width="300.000000pt" height="300.000000pt" viewBox="0 0 300.000000 300.000000"  preserveAspectRatio="xMidYMid meet">  <g transform="translate(0.000000,300.000000) scale(0.050000,-0.050000)" fill="#cc0000" stroke="none"> <path d="M1554 5219 c-1099 -128 -1644 -1375 -1011 -2314 54 -80 973 -1076 1327 -1437 159 -164 371 -385 740 -778 207 -220 382 -400 390 -400 7 0 106 99 220 220 711 753 837 886 902 950 234 229 1299 1387 1352 1470 545 858 158 1968 -781 2239 -573 165 -1091 31 -1529 -396 l-165 -161 -165 162 c-281 278 -524 398 -897 445 -181 23 -185 23 -383 0z"/> </g> </svg> `, src:"/assets/svgs/mail.svg" },
+      { id: 18,  name: 'Heart', SVGpath: ` <svg  version="1.0" xmlns="http://www.w3.org/2000/svg"  width="300.000000pt" height="300.000000pt" viewBox="0 0 300.000000 300.000000"  preserveAspectRatio="xMidYMid meet">  <g transform="translate(0.000000,300.000000) scale(0.050000,-0.050000)" fill="#cc0000" stroke="none"> <path d="M1554 5219 c-1099 -128 -1644 -1375 -1011 -2314 54 -80 973 -1076 1327 -1437 159 -164 371 -385 740 -778 207 -220 382 -400 390 -400 7 0 106 99 220 220 711 753 837 886 902 950 234 229 1299 1387 1352 1470 545 858 158 1968 -781 2239 -573 165 -1091 31 -1529 -396 l-165 -161 -165 162 c-281 278 -524 398 -897 445 -181 23 -185 23 -383 0z"/> </g> </svg> `, src:"/assets/svgs/heart.svg" },
       { id: 19,  name: 'Mail', SVGpath: `<svg version="1.0" xmlns="http://www.w3.org/2000/svg"
       width="300.000000pt" height="300.000000pt" viewBox="0 0 300.000000 300.000000"
       preserveAspectRatio="xMidYMid meet">
